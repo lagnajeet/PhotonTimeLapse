@@ -21,5 +21,15 @@ namespace PhotonController
         {
             Program.Form.SendGcode();
         }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtResponse.Text = "";
+        }
+
+        private void btnSaveLog_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
